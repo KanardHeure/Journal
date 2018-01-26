@@ -54,3 +54,35 @@ Bonjour, qu'as-tu fait aujourd'hui?
 Et comment c'est passé ta journée ?
 	légèrement fatiguante ..
 
+Journal du 22 Janvier 2018
+
+Bonjour, qu'as-tu fait aujourd'hui?
+	J'ai eu mon entretien avec mon mentor OC. J'attaque le projet 2 cette semaine
+
+Et comment c'est passé ta journée ?
+	Un peu stressé avant l'entretien car panne du serveur DNS 
+
+Journal du 23 Janvier 2018
+
+Bonjour, qu'as-tu fait aujourd'hui?
+	Pas fait grand chose
+
+Et comment c'est passé ta journée ?
+	Très calme
+
+Journal du 24 Janvier 2018
+
+Bonjour, qu'as-tu fait aujourd'hui?
+	J'ai eu les résultats de mon test de QI, j'ai donc eu des réponses à mes interrogation. J'ai également commencé à travaillé sur le projet 2.
+
+Et comment c'est passé ta journée ?
+	Très perturbante
+
+Journal du 26 Janvier 2018
+
+Bonjour, qu'as-tu fait aujourd'hui?
+	J'ai décidé de me motivé à avancer sur ma formation. J'ai bien bossé sur GitHub
+
+Et comment c'est passé ta journée ?
+	Très calme
+
