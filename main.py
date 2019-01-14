@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: Utf-8 -*-
 
-# Etape 1 : Création d'un fichier txt portant le nom : journal de bord du mois de xxx
+# Etape 1 : Création d'un fichier txt portant le nom : journal de bord du mois de xxx année
 #____Création d'un dossier Journal de bord et vérification qu'il existe
 #____Regarde si il y a des fichier et si parmis les noms il y a celui du mois sinon création
 # Etape 2 : Ecriture de la date dans le txt
@@ -9,6 +9,10 @@
 # Etape 3 : Demander à l'utilisateur ce qu'il à fait => Stocké la réponse // Demander son ressentie => stocké la réponse (console ou tkinter)
 #____Système de note sur 5 pour chaque (pour voir une progression)
 # Etape 4 : Enregistrement et fermeture du fichier
+# Etape 5 : Rajouter les réponses au bout des questions si on relance le journal dans la même journée (voir à rajouter l'heure)
+# Etape 6 : Réorganisation du code sur plusieurs fichier .py
+# Etape 7 : Rajouter des questions et utiliser un peu d'aléatoire (tout en laissant des questions obligatoire)
+
 
 from os import path
 from os import getcwd
