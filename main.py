@@ -23,37 +23,38 @@ curdir = path.dirname(__file__)
 if len(curdir) == 0: curdir = getcwd()
 
 if not path.exists(path.join(curdir,'Journal de bord')):
-	mkdir(path.join(curdir,'Journal de bord'))
+    mkdir(path.join(curdir,'Journal de bord'))
 chdir(curdir + "/Journal de bord")
 
-message = ["Bonjour, qu'as-tu fait aujourd'hui?", "Et comment c'est passé ta journée ?"]
+message = ["Bonjour, qu'as-tu fait aujourd'hui?", "Et comment c'est passé ta journée ?", "Sur une échelle de 1 à 10, à quel point tu t'es senti dépressif", "As-tu pleurer aujourd'hui ?"]
 reponse = []
 i = 0
-
+date = datetime.date.today()
 
 for item in message:
-	system("cls")
-	print(item)
-	reponse.append(input("\n"))
+    system("cls")
+    print(item)
+    reponse.append(input("\n"))
 
 
 
-liste_mois = ["Janvier","Fevrier","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Decembre"]
+liste_mois = ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"]
 liste_mois_chiffre = [1,2,3,4,5,6,7,8,9,10,11,12]
-mois = datetime.date.today()
+
+
 
 for item in liste_mois_chiffre:
-	if item == (mois.month):
-		nom_mois = liste_mois[(item-1)]
+    if item == (date.month):
+        nom_mois = liste_mois[(item-1)]
 
-journal = open("Journal de " + nom_mois +".txt", 'a')
-journal.write("Journal du " + str(mois.day) + " " + nom_mois + " " + str(mois.year) + "\n")
+journal = open("Journal de " + nom_mois + " " + str(date.year) +".txt", 'a')
+journal.write("Journal du " + str(date.day) + " " + nom_mois + " " + str(date.year) + "\n")
 journal.write("\n")
 
 
 for item in message:
-	journal.write(item)
-	journal.write("\n\t" + reponse[i] + "\n\n")
-	i+= 1
+    journal.write(item)
+    journal.write("\n\t" + reponse[i] + "\n\n")
+    i+= 1
 journal.close()
 sys.exit(0)
