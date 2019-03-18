@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 # -*- coding: Utf-8 -*-
 
 # Etape 1 : Création d'un fichier txt portant le nom : journal de bord du mois de xxx année
@@ -37,6 +37,7 @@ date = datetime.date.today()
 
 for item in message:
     system("cls")
+    system("clear")
     print(item)
     reponse.append(input("\n"))
 
