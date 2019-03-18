@@ -22,7 +22,6 @@ from os import system
 import sys
 import datetime
 
-print("test commit parrot")
 curdir = path.dirname(__file__)
 if len(curdir) == 0: curdir = getcwd()
 
