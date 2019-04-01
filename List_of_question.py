@@ -7,7 +7,7 @@ from os import system
 
 ### FUNCTION ###
 def question():
-    question = ["Bonjour, qu'as-tu fait aujourd'hui?", "Et comment c'est passé ta journée ?", "Sur une échelle de 1 à 10, à quel point tu t'es senti dépressif", "As-tu pleurer aujourd'hui ?"]
+    question = ["Bonjour, qu'as-tu fait aujourd'hui?", "Et comment c'est passé ta journée ?", "Sur une échelle de 1 à 10, à quel point tu t'es senti dépressif", "As-tu pleurer aujourd'hui ?", "Raconte moi ta journée."]
     reponse = []
 
     for item in question:
