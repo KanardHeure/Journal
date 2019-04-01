@@ -20,7 +20,6 @@ import List_of_question as Loq
 ##############
 
 cff.create_directory()
-print("test")
 message, reponse = Loq.question()
 cff.create_journal_file(message, reponse)
 sys.exit(0)
